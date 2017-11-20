@@ -10,6 +10,11 @@ It's expected that your target demographic uses semi-modern browsers - as long a
 
 The simple-to-use method is easy - just download the contents the dropin folder (there's 2 files) and put them in their respective location - the hbs file (if you're using [Ghost](https://ghost.org)) should be placed in the `partials` folder of your theme and called (i.e. `{{ > comment-template}}`) in your post template. The `comments.js` file should be configured (if you're using the default template it's already configured) based on which selectors should be used, and loaded like any other javascript code
 
+## File Structure
+- Files in dropin are minified to a decent extent and can be used in production ({name}.min.{ext})
+- {name}.nocomment.{ext} have the comments removed but are readable
+- {name}.{ext} are fully commented and intended to give you a better understanding of the code
+
 ## Issues + support
 
 Feel free to create an issue if you have any questions, feature requests or found a bug. As of now, there's no specific template, but if this gets too much traction, I'll put something in place. If you want to contact me directly, feel free to [email me](mailto:me@vikaspotluri.ml), or message me on [telegram](https://t.me/vikaspotluri123) or [facebook messenger](https://m.me/vikaspotluri).
