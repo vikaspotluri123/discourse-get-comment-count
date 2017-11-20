@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 	/* UPDATE CONFIG HERE!!! */
 	const DISCOURSE_URL = 'https://forum.mygreatblog.com/';
-	const COMMENT_SELECTOR = 'main article .meta-comment'
+	const COMMENT_SELECTOR = 'article .meta-comment'
 	const NUMBER_SELECTOR = '.meta-count';
 	const TEXT_SELECTOR = '.meta-plural';
 	const TEXT_SINGULAR = ' comment';

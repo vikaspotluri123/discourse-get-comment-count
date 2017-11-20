@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', function () {
 	/* UPDATE CONFIG HERE!!! */
 	// Where is your discourse forum hosted?
 	const DISCOURSE_URL = 'https://forum.mygreatblog.com/';
-	// Where is the discourse slug?
-	const COMMENT_SELECTOR = 'main article .meta-comment'
+	// Where is the discourse slug? Assumes you follow the HTML5 spec
+	const COMMENT_SELECTOR = 'article .meta-comment'
 	// Where is the number of comments *relative to COMMENT_SELECTOR*
 	//  note: if you can't make a relative query connection, you will
 	//   need to modify the code after `getCommentCount(articleSlug)`
