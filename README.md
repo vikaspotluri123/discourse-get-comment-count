@@ -12,7 +12,7 @@ The simple-to-use method is easy - just download the contents the dropin folder 
 
 ## Issues + support
 
-Feel free to create an issue if you have any questions, feature requests or found a bug. As of now, there's no specific template, but if this gets too much traction, I'll put something in place. If you want to contact me directly, feel free to [email me](mailto:me@vikaspotluri.ml), or message me on [telegram](https://t.me/vikaspotluri) or [facebook messenger](https://m.me/vikaspotluri).
+Feel free to create an issue if you have any questions, feature requests or found a bug. As of now, there's no specific template, but if this gets too much traction, I'll put something in place. If you want to contact me directly, feel free to [email me](mailto:me@vikaspotluri.ml), or message me on [telegram](https://t.me/vikaspotluri123) or [facebook messenger](https://m.me/vikaspotluri).
 
 ## Contributing
 
