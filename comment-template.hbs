@@ -1,0 +1,21 @@
+{{! This template is specifically for ghost, but can be modified to work with other systems}}
+{{! Note: This will cause the discourse API to be called multiple times for every page load.
+		you might want to implement some sort of caching / proxy mechanism if your discourse
+		instance receives too much traffic.
+}}
+
+
+{{! comments are disabled for pages}}
+{{^is "page"}}
+
+{{! slug is used because of the way discourse works - it's expected topics are automatically
+		created when a post is viewed and the url is similar to {discourse_instance}/t/{slug}
+}}
+{{! This assumes your comments section for a single post has an id ('comments')}}
+<a href="{{url}}#comments" class="meta-comment" data-topic-slug="{{slug}}">
+	{{! Default to 'No' rather than 0 to know when something isn't working properly}}
+	<span class="meta-count">No</span>
+	<span class="meta-plural"> comments</span>
+</a>
+
+{{/is}}
